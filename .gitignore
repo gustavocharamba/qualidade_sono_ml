@@ -1,0 +1,14 @@
+# Arquivos de compilação do Python
+__pycache__/
+*.pyc
+
+# Configurações do PyCharm
+.idea/
+
+# Ambiente Virtual
+.venv/
+venv/
+env/
+
+# Arquivos do sistema Mac
+.DS_Store

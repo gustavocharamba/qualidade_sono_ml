@@ -6,7 +6,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
 
-def LinearRegressionModel(X_train, X_test, y_train, y_test, X, y):
+def linear_regression(X, y):
     rmse_linear = []
     mae_linear = []
     r2_linear = []

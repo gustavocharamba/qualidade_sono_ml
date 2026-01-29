@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.tree import DecisionTreeRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 
-def DecisionTreeModel(X_train, X_test, y_train, y_test, X, y):
+def decision_tree(X, y):
     rmse_tree = []
     mae_tree = []
     r2_tree = []
